@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: '@environment@'  #注意YAML配置文件需要加单引号，否则会报错
+
+#目前选择开发环境
+#主配置
